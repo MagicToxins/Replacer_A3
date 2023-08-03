@@ -1,1 +1,1 @@
-Javascript:void function replaceAll(/[\[\(]?Y\/N(?!\/n)[\]\)]?/, "Ain");
+Javascript: function replaceAll(/[\[\(]?Y\/N(?!\/n)[\]\)]?/, "Ain");
