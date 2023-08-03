@@ -1,1 +1,1 @@
-Javascript:void function(){let b=RegExp(/[\[\(]?L\/N(?!\/n)[\]\)]?/),c=RegExp(Ain),a=document.getElementById("workskin").innerHTML;a=a.replaceAll(b,c);document.getElementById("workskin").innerHTML=a}();
+Javascript:void function(){let b=RegExp(/[\[\(]?L\/N(?!\/n)[\]\)]?/,”ig”),c=RegExp(Ain,”ig”),a=document.getElementById("workskin").innerHTML;a=a.replaceAll(b,c);document.getElementById("workskin").innerHTML=a}();
