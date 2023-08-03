@@ -1,0 +1,1 @@
+Javascript:void function(){let b=RegExp(/[\[\(]?E\/C(?!\/n)[\]\)]?/,"ig"),c=prompt("Modify E/C with:",""),a=document.getElementById("workskin").innerHTML;a=a.replaceAll(b,c);document.getElementById("workskin").innerHTML=a}();
