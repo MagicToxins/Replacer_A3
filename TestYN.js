@@ -1,1 +1,1 @@
-Javascript: function document.getElementById("workskin").innerHTML.replace(/[\[\(]?Y\/N(?!\/n)[\]\)]?/, Ain);
+Javascript:void function(){document.getElementById("workskin").innerHTML = document.body.innerHTML.replace(/[\[\(]?Y\/N(?!\/n)[\]\)]?/, Ain)}();
