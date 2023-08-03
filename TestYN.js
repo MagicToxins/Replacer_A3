@@ -1,1 +1,1 @@
-Javascript:void function replaceAllText() { (/[\[\(]?Y\/N(?!\/n)[\]\)]?/,Ain); }
+Javascript:void function(){let b=RegExp(/[\[\(]?Y\/N(?!\/n)[\]\)]?/,"ig"),c=RegExp(Ain,"ig"),a=document.getElementById("workskin").innerHTML;a=a.replaceAll(b,c);document.getElementById("workskin").innerHTML=a}();
