@@ -1,1 +1,1 @@
-Javascript:void function(){let b=RegExp(/[\[\(]?H\/C(?!\/n)[\]\)]?/,"ig"),c=prompt("Modify H/C with:",""),a=document.getElementById("workskin").innerHTML;a=a.replaceAll(b,c);document.getElementById("workskin").innerHTML=a}();
+void function(){let b=RegExp(/[\[\(]?H\/C(?!\/n)[\]\)]?/,"ig"), a=document.getElementById("workskin").innerHTML;a=a.replaceAll(b,"white");document.getElementById("workskin").innerHTML=a}();
