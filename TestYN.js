@@ -1,1 +1,1 @@
-Javascript:void function(){let a=document.getElementById("workskin").innerHTML;a=a.replaceAll(/[\[\(]?Y\/N(?!\/n)[\]\)]?/, "Ain");document.getElementById("workskin").innerHTML=a}();
+Javascript:void function(){let b=RegExp(/[\[\(]?Y\/N(?!\/n)[\]\)]?/,"g"), a=document.getElementById("workskin").innerHTML;a=a.replaceAll(b,Ain);document.getElementById("workskin").innerHTML=a}();
